@@ -1,4 +1,4 @@
-﻿//Experiment 1
+﻿//Experiment 2
 //A software company is developing a user profile management system. Design a class UserProfile with private fields like username, password, and email.
 //Provide public methods to set and get the values securely.
 //Add validation in setters (e.g., email must contain @, password must be at least 6 characters).
@@ -575,4 +575,5 @@ class Program
         // Display Available Books After Lending
         library.DisplayAvailableBooks();
     }
+
 }
