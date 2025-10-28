@@ -21,7 +21,7 @@
 //{
 //    public static void Main()
 //    {
-//        Employee emp = new Employee { Name = "Vaibhav", Age = 24, Salary = 50000 };
+//        Employee emp = new Employee { Name = "Anjali", Age = 24, Salary = 50000 };
 //        emp.DisplayDetails();
 //    }
 //}
@@ -70,7 +70,7 @@
 //        BankAccount acc = new BankAccount
 //        {
 //            AccountNumber = 12345,
-//            AccountHolder = "Vaibhav"
+//            AccountHolder = "Anjali"
 //        };
 //        acc.Deposit(5000);
 //        acc.Withdraw(2000);
@@ -152,7 +152,7 @@
 //{
 //    static void Main()
 //    {
-//        Person p = new Person { FirstName = "Vaibhav", LastName = "Chauhan" };
+//        Person p = new Person { FirstName = "Anjali", LastName = "Sharma" };
 //        p.PrintFullName();
 //    }
 //}
@@ -183,7 +183,7 @@
 //{
 //    static void Main()
 //    {
-//        Employee emp = new Employee { Name = "Aman", BaseSalary = 40000 };
+//        Employee emp = new Employee { Name = "Anjali", BaseSalary = 40000 };
 //        Console.WriteLine($"Final Salary: {emp.CalculateSalary(5000, 2000)}");
 //    }
 //}
@@ -337,3 +337,4 @@ class Program
         Console.WriteLine($"Interest: {acc.CalculateInterest()}");
     }
 }
+
