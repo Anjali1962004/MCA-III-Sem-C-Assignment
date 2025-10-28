@@ -92,7 +92,7 @@
 //    static void Main(string[] args)
 //    {
 //        // First valid user
-//        UserProfile user1 = new UserProfile("Sandeep", "secure123", "sandeep@example.com");
+//        UserProfile user1 = new UserProfile("Anjali", "secure123", "Anjali@example.com");
 //        user1.DisplayProfile();
 
 //        // Second user with some invalid inputs
@@ -368,7 +368,7 @@
 //        Student s1 = new Student();
 
 //        // Using Constructor with Name and Roll Number
-//        Student s2 = new Student("Vaibhav", 101);
+//        Student s2 = new Student("Anjali", 101);
 
 //        // Using Constructor with Name, Roll Number, and Marks
 //        Student s3 = new Student("Ram", 102, 88.5);
@@ -558,7 +558,7 @@ class Program
         Library library = new Library();
 
         // Register Members
-        library.RegisterMember(new Member { MemberID = 1, Name = "Vaibhav" });
+        library.RegisterMember(new Member { MemberID = 1, Name = "Anjali" });
         library.RegisterMember(new Member { MemberID = 2, Name = "Ram" });
 
         // Add Books
@@ -577,3 +577,4 @@ class Program
     }
 
 }
+
